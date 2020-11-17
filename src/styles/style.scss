@@ -138,6 +138,10 @@ $pink: #c969a6;
 // Primar variables
 // Primar variables
 
+@import url("./common.blocks/buttons/_buttons.scss");
+@import url("./common.blocks/footer/_footer.scss");
+@import url("./common.blocks/hero/_hero.scss");
+
 html {
   font-size: 16px;
 
