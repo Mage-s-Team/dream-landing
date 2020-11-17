@@ -1,0 +1,29 @@
+$purple: #380596;
+$dark: #1c1c1c;
+$pink: #c969a6;
+
+
+button{
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  
+  color: inherit;
+  font-family: "Nunito", sans-serif;
+  // border-radius: 8px;
+}
+
+.btn-light{
+  background: $pink;
+  color: white;
+
+  padding: 12px 15px 12px 15px;
+}
+
+.btn-dark{
+  background: $purple;
+  color: white;
+
+  padding: 12px 15px 12px 15px;
+}

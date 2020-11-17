@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
+*{
+  box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -138,10 +142,10 @@ $pink: #c969a6;
 // Primar variables
 // Primar variables
 
-@import url("./common.blocks/buttons/_buttons.scss");
-@import url("./common.blocks/footer/_footer.scss");
-@import url("./common.blocks/hero/_hero.scss");
-@import url("./common.blocks/_repeats.scss");
+@import "./common.blocks/buttons/_buttons.scss";
+@import "./common.blocks/footer/_footer.scss";
+@import "./common.blocks/hero/_hero.scss";
+@import "./common.blocks/_repeats.scss";
 
 // Modules imports
 // Modules imports
@@ -162,9 +166,10 @@ body {
   display: flex;
   justify-content: center;
 
-  background: $pink;
+  background: $purple;
 }
 
 .wrapper {
   max-width: 1200px;
+  padding: 20px;
 }
