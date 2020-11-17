@@ -1,0 +1,1 @@
+sass ./src/styles/style.scss ./public/styles/style.css --no-source-map
