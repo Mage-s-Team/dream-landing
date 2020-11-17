@@ -141,7 +141,11 @@ $pink: #c969a6;
 @import url("./common.blocks/buttons/_buttons.scss");
 @import url("./common.blocks/footer/_footer.scss");
 @import url("./common.blocks/hero/_hero.scss");
+@import url("./common.blocks/_repeats.scss");
 
+// Modules imports
+// Modules imports
+// Modules imports
 html {
   font-size: 16px;
 
@@ -152,4 +156,15 @@ h1,
 h2,
 h3 {
   font-family: "Roboto Slab", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  background: $pink;
+}
+
+.wrapper {
+  max-width: 1200px;
 }
