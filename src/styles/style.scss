@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
 
 *{
   box-sizing: border-box;
@@ -172,4 +172,20 @@ body {
 .wrapper {
   max-width: 1200px;
   padding: 20px;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background: $purple;
+  border: 1px solid $dark;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 6px;
+  background: $dark;
+  box-shadow: inset 0px 0px 6px;
 }

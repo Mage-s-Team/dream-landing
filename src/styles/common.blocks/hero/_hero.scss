@@ -3,12 +3,11 @@ $dark: #1c1c1c;
 $pink: #c969a6;
 
 .hero{
+  @extend .dark-block-style;
+
   width: 100%;
+  height: calc(100vh - 50px);
   padding: 50px;
-  border-radius: 0px;
-  
-  background: $dark;
-  color: white;
 
   &__logo-img{
     height: 300px;
