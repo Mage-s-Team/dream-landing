@@ -2,30 +2,3 @@ $purple: #380596;
 $dark: #1c1c1c;
 $pink: #c969a6;
 
-.hero{
-  @extend .dark-block-style;
-
-  width: 100%;
-  height: calc(100vh - 50px);
-  padding: 50px;
-
-  &__logo-img{
-    height: 300px;
-    border-radius: 50%;
-    margin-bottom: 50px;
-  }
-
-  &__header{
-    font-size: 2rem;
-  }
-
-  &__paragraph{
-    font-size: 1.2rem;
-    margin-top: 35px;
-    margin-bottom: 35px;
-  }
-
-  &__btn-link{
-    font-size: 1.3rem;
-  }
-}

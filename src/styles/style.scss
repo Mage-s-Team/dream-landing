@@ -146,6 +146,7 @@ $pink: #c969a6;
 @import "./common.blocks/footer/_footer.scss";
 @import "./common.blocks/hero/_hero.scss";
 @import "./common.blocks/_repeats.scss";
+@import "./common.blocks/preloader/preloader";
 
 // Modules imports
 // Modules imports
@@ -189,3 +190,4 @@ body {
   background: $dark;
   box-shadow: inset 0px 0px 6px;
 }
+
