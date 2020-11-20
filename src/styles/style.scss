@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -131,15 +131,10 @@ table {
 }
 
 // Primar alinement of project
-// Primar alinement of project
-// Primar alinement of project
 
-$purple: #380596;
 $dark: #1c1c1c;
 $pink: #c969a6;
 
-// Primar variables
-// Primar variables
 // Primar variables
 
 @import "./common.blocks/buttons/_buttons.scss";
@@ -149,8 +144,7 @@ $pink: #c969a6;
 @import "./common.blocks/preloader/preloader";
 
 // Modules imports
-// Modules imports
-// Modules imports
+
 html {
   font-size: 16px;
 
@@ -163,31 +157,26 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
+p {
+  color: transparent;
+}
+
 body {
   display: flex;
   justify-content: center;
 
-  background: $purple;
+  background-size: 170px;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: #6247aaff;
+  background-image: linear-gradient(
+      180deg,
+      rgba(93, 90, 90, 0.48082983193277307) 0%,
+      rgba(93, 90, 90, 0.48082983193277307) 100%
+    ),
+    url("https://i.ibb.co/yNThGd6/image0-removebg-preview.png");
 }
 
 .wrapper {
-  max-width: 1200px;
-  padding: 20px;
+  padding: 0;
 }
-
-::-webkit-scrollbar{
-  width: 12px;
-}
-
-::-webkit-scrollbar-track{
-  background: $purple;
-  border: 1px solid $dark;
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb{
-  border-radius: 6px;
-  background: $dark;
-  box-shadow: inset 0px 0px 6px;
-}
-

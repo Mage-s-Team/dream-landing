@@ -2,3 +2,32 @@ $purple: #380596;
 $dark: #1c1c1c;
 $pink: #c969a6;
 
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.10547969187675066) 35%,
+      #6247aaff 100%
+    ),
+    url("https://media.discordapp.net/attachments/606562777259049001/768074836249018408/image0.jpg");
+
+  &__transition-image {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+}

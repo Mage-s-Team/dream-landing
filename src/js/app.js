@@ -7,4 +7,4 @@ function hidePreloader() {
   preloader.classList.add('preloader-wrap-hidden');
 }
 
-setInterval(hidePreloader, 5000);
+setInterval(hidePreloader, 2000);
