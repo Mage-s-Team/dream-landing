@@ -134,9 +134,18 @@ table {
 // Primar alinement of project
 // Primar alinement of project
 
-$purple: #380596;
-$dark: #1c1c1c;
-$pink: #c969a6;
+$dark: rgb(20, 20, 20);
+$thistle:#dec9e9ff;
+$thistle-2:#dac3e8ff;
+$pink-lavender:#d2b7e5ff;
+$wisteria: global #c19ee0ff;
+$lavender-floral:#b185dbff;
+$amethyst: global #a06cd5ff;
+$amethyst-2: global #9163cbff;
+$blue-violet-crayola:#815ac0ff;
+$royal-purple: #7251b5ff;
+$plump-purple: #6247aaff;
+
 
 // Primar variables
 // Primar variables
@@ -166,8 +175,6 @@ h3 {
 body {
   display: flex;
   justify-content: center;
-
-  background: $purple;
 }
 
 .wrapper {
@@ -175,19 +182,4 @@ body {
   padding: 20px;
 }
 
-::-webkit-scrollbar{
-  width: 12px;
-}
-
-::-webkit-scrollbar-track{
-  background: $purple;
-  border: 1px solid $dark;
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb{
-  border-radius: 6px;
-  background: $dark;
-  box-shadow: inset 0px 0px 6px;
-}
 

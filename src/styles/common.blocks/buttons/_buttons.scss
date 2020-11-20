@@ -1,8 +1,3 @@
-$purple: #380596;
-$dark: #1c1c1c;
-$pink: #c969a6;
-
-
 button{
   border: none;
   background: none;
@@ -12,32 +7,4 @@ button{
   color: inherit;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
-
-  border-radius: 12px;
-
-  transition: all .2s;
-  &:active{
-    box-shadow: 5px 5px 10px 0px #380596 !important;
-    margin-top: 2px;
-    margin-left: 2px;
-  }
-}
-
-.btn-light{
-  background: $pink;
-  color: white;
-  box-shadow: 5px 5px 10px 3px #380596a1;
-
-  padding: 12px 15px 12px 15px;
-
-  &:hover{
-    box-shadow: 5px 5px 10px 3px #380596;
-  }
-}
-
-.btn-dark{
-  background: $purple;
-  color: white;
-
-  padding: 12px 15px 12px 15px;
 }
