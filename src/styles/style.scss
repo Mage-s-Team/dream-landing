@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -131,9 +131,8 @@ table {
 }
 
 // Primar alinement of project
-// Primar alinement of project
-// Primar alinement of project
 
+<<<<<<< HEAD
 $dark: rgb(20, 20, 20);
 $thistle:#dec9e9ff;
 $thistle-2:#dac3e8ff;
@@ -146,9 +145,11 @@ $blue-violet-crayola:#815ac0ff;
 $royal-purple: #7251b5ff;
 $plump-purple: #6247aaff;
 
+=======
+$dark: #1c1c1c;
+$pink: #c969a6;
+>>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 
-// Primar variables
-// Primar variables
 // Primar variables
 
 @import "./common.blocks/buttons/_buttons.scss";
@@ -158,8 +159,7 @@ $plump-purple: #6247aaff;
 @import "./common.blocks/preloader/preloader";
 
 // Modules imports
-// Modules imports
-// Modules imports
+
 html {
   font-size: 16px;
 
@@ -172,9 +172,14 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
+p {
+  color: transparent;
+}
+
 body {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
 }
 
 .wrapper {
@@ -183,3 +188,21 @@ body {
 }
 
 
+=======
+
+  background-size: 170px;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: #6247aaff;
+  background-image: linear-gradient(
+      180deg,
+      rgba(93, 90, 90, 0.48082983193277307) 0%,
+      rgba(93, 90, 90, 0.48082983193277307) 100%
+    ),
+    url("https://i.ibb.co/yNThGd6/image0-removebg-preview.png");
+}
+
+.wrapper {
+  padding: 0;
+}
+>>>>>>> 6a608a428fdfe865a811635db9928a122699142a
