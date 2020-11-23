@@ -2,7 +2,7 @@
   @keyframes preload-show-#{$i} {
     from {
       transform: rotateZ(60 * $i + deg) rotateY(-90deg) rotateX(0deg);
-      border-left-color:$plump-purple;
+      border-left-color: $plump-purple;
     }
   }
   @keyframes preload-hide-#{$i} {
@@ -16,41 +16,22 @@
     $startIndex: $i * 5;
     $reverseIndex: (80 - $i * 5);
 
-<<<<<<< HEAD
-		#{$startIndex * 1%}{
-			transform: rotateZ(60* $i + deg) rotateY(90deg) rotateX(0deg);
-			border-left-color: $plump-purple;
-		}
-		#{$startIndex + 5%},
-		#{$reverseIndex * 1%}{
-			transform: rotateZ(60* $i + deg) rotateY(0) rotateX(0deg);
-			border-left-color:  $plump-purple;
-		}
-
-		#{$reverseIndex + 5%},
-		100%{
-			transform: rotateZ(60* $i + deg) rotateY(90deg) rotateX(0deg);
-			border-left-color: $plump-purple;
-		}
-	}
-=======
     #{$startIndex * 1%} {
       transform: rotateZ(60 * $i + deg) rotateY(90deg) rotateX(0deg);
-      border-left-color: $purple;
+      border-left-color: $plump-purple;
     }
     #{$startIndex + 5%},
     #{$reverseIndex * 1%} {
       transform: rotateZ(60 * $i + deg) rotateY(0) rotateX(0deg);
-      border-left-color: $purple;
+      border-left-color: $plump-purple;
     }
 
     #{$reverseIndex + 5%},
     100% {
       transform: rotateZ(60 * $i + deg) rotateY(90deg) rotateX(0deg);
-      border-left-color: $purple;
+      border-left-color: $plump-purple;
     }
   }
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 }
 
 @keyframes preload-flip {
@@ -66,24 +47,15 @@
   position: absolute;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-	background-color: $dark;
-=======
   background: $dark;
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 }
 
 .preloader-wrap-hidden {
   opacity: 0;
-<<<<<<< HEAD
-	visibility: hidden;
-	transition: all 1s;
-=======
   // height: 0;
   // width: 0;
   visibility: hidden;
   transition: all 1s;
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 }
 
 .preloader {
@@ -101,19 +73,6 @@
   transform-origin: center center;
   transform: rotateY(180deg) rotateZ(-60deg);
 
-<<<<<<< HEAD
-	.slice{
-		border-top: 1.125em solid transparent;
-		border-right: none;
-		border-bottom: 1em solid transparent;
-		border-left: 1.875em solid $plump-purple;
-		position: absolute;
-		top: 0px;
-		left: 50%;
-		transform-origin: left bottom;
-		border-radius: 3px 3px 0 0;
-	}
-=======
   .slice {
     border-top: 1.125em solid transparent;
     border-right: none;
@@ -125,7 +84,6 @@
     transform-origin: left bottom;
     border-radius: 3px 3px 0 0;
   }
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 
   @for $i from 1 through 6 {
     .slice:nth-child(#{$i}) {

@@ -18,3 +18,4 @@ if (isPrealoaderNeed === null) {
   body.classList.add('scrollbar-unhide');
   preloader.style.display = 'none';
 }
+

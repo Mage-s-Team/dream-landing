@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -132,23 +133,17 @@ table {
 
 // Primar alinement of project
 
-<<<<<<< HEAD
 $dark: rgb(20, 20, 20);
-$thistle:#dec9e9ff;
-$thistle-2:#dac3e8ff;
-$pink-lavender:#d2b7e5ff;
+$thistle: #dec9e9ff;
+$thistle-2: #dac3e8ff;
+$pink-lavender: #d2b7e5ff;
 $wisteria: global #c19ee0ff;
-$lavender-floral:#b185dbff;
+$lavender-floral: #b185dbff;
 $amethyst: global #a06cd5ff;
 $amethyst-2: global #9163cbff;
-$blue-violet-crayola:#815ac0ff;
+$blue-violet-crayola: #815ac0ff;
 $royal-purple: #7251b5ff;
 $plump-purple: #6247aaff;
-
-=======
-$dark: #1c1c1c;
-$pink: #c969a6;
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
 
 // Primar variables
 
@@ -157,13 +152,13 @@ $pink: #c969a6;
 @import "./common.blocks/hero/_hero.scss";
 @import "./common.blocks/_repeats.scss";
 @import "./common.blocks/preloader/preloader";
+@import "./common.blocks/sections/sections";
 
 // Modules imports
-
 html {
   font-size: 16px;
 
-  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -172,37 +167,17 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
-p {
-  color: transparent;
-}
-
 body {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-}
 
-.wrapper {
-  max-width: 1200px;
-  padding: 20px;
-}
-
-
-=======
+  font-family: "Ubuntu", sans-serif;
 
   background-size: 170px;
   background-repeat: repeat;
   background-position: center;
-  background-color: #6247aaff;
-  background-image: linear-gradient(
-      180deg,
-      rgba(93, 90, 90, 0.48082983193277307) 0%,
-      rgba(93, 90, 90, 0.48082983193277307) 100%
-    ),
-    url("https://i.ibb.co/yNThGd6/image0-removebg-preview.png");
 }
 
 .wrapper {
   padding: 0;
 }
->>>>>>> 6a608a428fdfe865a811635db9928a122699142a
