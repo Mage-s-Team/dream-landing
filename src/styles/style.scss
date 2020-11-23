@@ -157,7 +157,6 @@ $plump-purple: #6247aaff;
 // Modules imports
 html {
   font-size: 16px;
-
   scroll-behavior: smooth;
 }
 
@@ -179,5 +178,5 @@ body {
 }
 
 .wrapper {
-  padding: 0;
+  width: 100%;
 }
