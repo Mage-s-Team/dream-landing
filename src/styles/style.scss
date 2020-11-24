@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 
 * {
@@ -53,8 +51,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -131,6 +127,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 // Primar alinement of project
 
 $dark: rgb(20, 20, 20);
@@ -144,6 +144,7 @@ $amethyst-2: global #9163cbff;
 $blue-violet-crayola: #815ac0ff;
 $royal-purple: #7251b5ff;
 $plump-purple: #6247aaff;
+$red: #e1332d;
 
 // Primar variables
 
@@ -158,12 +159,6 @@ $plump-purple: #6247aaff;
 html {
   font-size: 16px;
   scroll-behavior: smooth;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Roboto Slab", serif;
 }
 
 body {

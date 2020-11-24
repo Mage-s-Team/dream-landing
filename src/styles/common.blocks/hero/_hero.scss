@@ -14,7 +14,12 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("https://n.sinaimg.cn/sinacn20111/541/w1176h965/20200103/b43e-imrkkfx1913852.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(67, 11, 104, 0.39) 0%,
+      rgba(67, 11, 104, 0.39) 100%
+    ),
+    url("https://n.sinaimg.cn/sinacn20111/541/w1176h965/20200103/b43e-imrkkfx1913852.jpg");
 
   &__btn-link {
     display: flex;
@@ -24,12 +29,14 @@
 
     #background-link-1 {
       height: 170px;
+      width: 550px;
     }
     #background-link-2 {
       height: 300px;
     }
     #background-link-3 {
-      height: 200px;
+      height: 190px;
+      width: 550px;
     }
   }
 }

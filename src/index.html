@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/723866622623744051/780876554493493278/sceleton.png" type="image/x-icon">
+
     <title>Dream League</title>
   </head>
 
   <body class="scrollbar-hidden">
     <div class="preloader-wrap">
-      <div class="preloader loading">
+      <div class="preloader loading">       
         <span class="slice"></span>
         <span class="slice"></span>
         <span class="slice"></span>
@@ -55,10 +57,18 @@
       <main id="main">
         <div class="section-wrap">
           <section class="section-wrap__block skeleton1">
-            <div class="section-wrap__content">
-              Dream League – сервер, на котором ты можешь поиграть во все что
-              угодно или просто приятно пообщаться. Приятное комьюнити и
-              отзывчивая администрация не дадут тебе заскучать! <br />
+            <div class="section-wrap__content " data-aos="zoom-in">
+              <p class="section-wrap__info">
+                <span class="section-wrap__first-character character1">D</span>
+                ream League – сервер, на котором ты можешь поиграть во все что
+                угодно или просто приятно пообщаться. Приятное комьюнити и
+                отзывчивая администрация не дадут тебе заскучать! <br />
+              </p>
+
+              <div class="section-wrap__indent">
+                <p class="section-wrap__divider-line"></p>
+              </div>
+
               На сервере также присутствуют:
 
               <ul class="section-wrap__list">
@@ -80,24 +90,44 @@
           </section>
         </div>
 
-        <div class="section-space"></div>
+        <div class="section-space space1">
+          <a  href="http://htmlbook.ru/css/list-style-type" class="section-space__button" data-aos="fade-up-left">
+            Перейти на сервер
+          </a>
+        </div>
 
         <div class="section-wrap">
           <section class="section-wrap__block skeleton2">
-            <div class="section-wrap__content">
-              Чтоб прочитать правила нашего сервера нажмите на кнопку снизу, или
+            <div class="section-wrap__content" data-aos="zoom-in">
+              <p class="section-wrap__info">
+
+              <span class="section-wrap__first-character character2">Ч</span>
+              тоб прочитать правила нашего сервера нажмите на кнопку снизу, или
               (при условии что Вы уже верефицированый пользователь) зайдите в
               соответствующий канал на нашем сервере в категории "Важное"
             </div>
+          </p>
           </section>
+        </div>
+
+        <div class="section-space space2">
+          <a  href="http://htmlbook.ru/css/list-style-type" class="section-space__button" data-aos="fade-up-left">
+            Перейти к правилам
+          </a>
         </div>
 
         <!-- data-aos="fade-down-left" -->
       </main>
 
-      <div class="footer">
-        <!-- <h3 class="footer__copyright">Copyright</h3> -->
-      </div>
+      <footer class="footer">
+        <h3 class="footer__primary">© Dream League</h3>   
+        <div class="section-wrap__indent">
+          <p class="section-wrap__divider-line"></p>
+        </div>
+        <h4 class="footer__secondary">Made by <a href="https://github.com/haravetskyy">300</a> and <a href="https://github.com/TarasKostiv">007kostiv</a> </h4>
+
+        
+      </footer>
     </div>
 
     <script src="./js/app.js"></script>
@@ -108,6 +138,7 @@
       AOS.init({
         disable: "phone",
         once: true,
+        delay: 150,
       });
     </script>
   </body>
