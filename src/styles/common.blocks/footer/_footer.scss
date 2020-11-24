@@ -1,0 +1,28 @@
+.footer {
+  height: 20vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  &__primary {
+    color: #000;
+
+    font-size: 1.5rem;
+  }
+
+  &__secondary {
+    color: rgb(71, 70, 70);
+
+    font-size: 1rem;
+
+    a {
+      color: rgb(71, 70, 70);
+
+      text-decoration: underline;
+    }
+  }
+}

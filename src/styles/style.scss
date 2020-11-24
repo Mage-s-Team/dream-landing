@@ -1,3 +1,177 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Primar alinement of project
+
+$dark: rgb(20, 20, 20);
+$thistle: #dec9e9ff;
+$thistle-2: #dac3e8ff;
+$pink-lavender: #d2b7e5ff;
+$wisteria: global #c19ee0ff;
+$lavender-floral: #b185dbff;
+$amethyst: global #a06cd5ff;
+$amethyst-2: global #9163cbff;
+$blue-violet-crayola: #815ac0ff;
+$royal-purple: #7251b5ff;
+$plump-purple: #6247aaff;
+$red: #e1332d;
+
+// Primar variables
+
+@import "./common.blocks/buttons/_buttons.scss";
+@import "./common.blocks/footer/_footer.scss";
+@import "./common.blocks/hero/_hero.scss";
+@import "./common.blocks/_repeats.scss";
+@import "./common.blocks/preloader/preloader";
+@import "./common.blocks/sections/sections";
+
+// Modules imports
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Ubuntu", sans-serif;
+
+  background-size: 170px;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
 }
