@@ -23,6 +23,10 @@
       color: rgb(71, 70, 70);
 
       text-decoration: underline;
+
+      &:hover{
+        color: #000;
+      }
     }
   }
 }

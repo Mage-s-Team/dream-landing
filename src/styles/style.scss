@@ -148,6 +148,14 @@ $red: #e1332d;
 
 // Primar variables
 
+
+$laptop: 1024px;
+$tablet: 768px;
+$mobileL: 425px;
+$mobileM: 375px;
+$mobileS: 320px;
+
+
 @import "./common.blocks/buttons/_buttons.scss";
 @import "./common.blocks/footer/_footer.scss";
 @import "./common.blocks/hero/_hero.scss";
