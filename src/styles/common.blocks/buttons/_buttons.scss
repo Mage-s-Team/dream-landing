@@ -134,3 +134,14 @@ button {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: $mobileL){
+  .section-space {
+    &__button {
+      font-size: 0.8rem;
+  
+      padding: 25px 45px;
+
+    }
+  }
+}
