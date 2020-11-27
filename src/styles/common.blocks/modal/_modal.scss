@@ -1,0 +1,63 @@
+.modal-wrap {
+  position: fixed;
+  z-index: 98;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content{
+    background: #fff;
+ 
+    box-shadow: inset 0px 0px 18px 0px rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    width: 60vw;
+    padding: 40px;
+    position: relative;
+    z-index: 99;
+    overflow-y: scroll;
+  }
+
+  &__btn-close{
+    font-size: 1.5rem;
+
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  &__header{
+    font-size: 1.8rem;
+  }
+
+  &__list{
+    font-size: 1rem;
+
+    &-elem{
+      margin-top: 7px;
+      margin-bottom: 7px;
+
+      &-discord-btn,&-mark{
+        background: $dark;
+        color:#fff;
+        display: inline-block;
+        border-radius: 4px;
+        padding: 4px;
+        margin-top: 2px;
+      }
+
+    }
+  }
+
+
+}
+
+.modal-wrap-hidden{
+  height: 0;
+  width: 0;
+  opacity: 0;
+  z-index:-1;
+
+}

@@ -50,7 +50,6 @@ center,
 dl,
 dt,
 dd,
-ol,
 fieldset,
 form,
 label,
@@ -133,7 +132,7 @@ a {
 
 // Primar alinement of project
 
-$dark: rgb(20, 20, 20);
+$dark: rgb(68, 68, 68);
 $thistle: #dec9e9ff;
 $thistle-2: #dac3e8ff;
 $pink-lavender: #d2b7e5ff;
@@ -157,9 +156,9 @@ $mobileS: 320px;
 @import "./common.blocks/buttons/_buttons.scss";
 @import "./common.blocks/footer/_footer.scss";
 @import "./common.blocks/hero/_hero.scss";
-@import "./common.blocks/_repeats.scss";
 @import "./common.blocks/preloader/preloader";
 @import "./common.blocks/sections/sections";
+@import "./common.blocks/modal/modal";
 
 // Modules imports
 html {
@@ -176,8 +175,28 @@ body {
   background-size: 170px;
   background-repeat: repeat;
   background-position: center;
+
+  overflow: hidden;
 }
 
 .wrapper {
   width: 100%;
+}
+
+a{
+
+
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: $blue-violet-crayola;
+}
+
+::-webkit-scrollbar-track{
+  background: #ffffff;
+  box-shadow: #fff;
 }
