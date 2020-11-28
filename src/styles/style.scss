@@ -50,7 +50,6 @@ center,
 dl,
 dt,
 dd,
-ol,
 fieldset,
 form,
 label,
@@ -133,7 +132,8 @@ a {
 
 // Primar alinement of project
 
-$dark: rgb(20, 20, 20);
+$light-dark: rgb(68, 68, 68);
+$dark: rgb(29, 29, 29);
 $thistle: #dec9e9ff;
 $thistle-2: #dac3e8ff;
 $pink-lavender: #d2b7e5ff;
@@ -148,12 +148,18 @@ $red: #e1332d;
 
 // Primar variables
 
+$laptop: 1024px;
+$tablet: 768px;
+$mobileL: 425px;
+$mobileM: 375px;
+$mobileS: 320px;
+
 @import "./common.blocks/buttons/_buttons.scss";
 @import "./common.blocks/footer/_footer.scss";
 @import "./common.blocks/hero/_hero.scss";
-@import "./common.blocks/_repeats.scss";
 @import "./common.blocks/preloader/preloader";
 @import "./common.blocks/sections/sections";
+@import "./common.blocks/modal/modal";
 
 // Modules imports
 html {
@@ -170,8 +176,30 @@ body {
   background-size: 170px;
   background-repeat: repeat;
   background-position: center;
+
+  overflow: hidden;
 }
 
 .wrapper {
   width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: $blue-violet-crayola;
+}
+
+::-webkit-scrollbar-track{
+  background: #ffffff;
+  box-shadow: #fff;
+}
+
+@media screen and (max-width: $mobileL){
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
 }

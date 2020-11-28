@@ -49,27 +49,18 @@
   &__first-character {
     font-weight: 400;
     float: left;
-    // line-height: 64px;
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 3px;
     font-family: "Source Sans Pro", sans-serif;
+    color: #6247aaff;
+    font-size: 2.5rem;
   }
 
   &__info {
     display: flex;
     align-items: center;
   }
-}
-
-.character1 {
-  font-size: 2.5rem;
-  color: #6247aaff;
-}
-
-.character2 {
-  font-size: 3rem;
-  color: #6247aaff;
 }
 
 .skeleton1 {
@@ -91,7 +82,7 @@
 }
 
 .section-space {
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   background-color: #000;
 
@@ -128,27 +119,42 @@
     url("https://techlife.news/wp-content/uploads/2019/11/01_SPoW_072719.jpg");
 }
 
-// https://lh3.googleusercontent.com/proxy/iyvURDjzAye-vYEJFnX7MUh4IDc6FEQ8ejkLHXTXwWccZJA2R_J0iABDO4MRpw7_KQjINu8QyHczLgZNIY9vw_n7BOJT1ZeWlDi_t_8kAM1hCcKhJt3rDPmacqGMwQbmxdh1q7KxeVMs95ewHhktRT_N_MIl
+@media screen and (max-width: $tablet) {
+  .section-wrap {
+    &__block {
+      padding: 70px;
+    }
+  }
+}
 
-// .section-wrap {
-//   // width: 100vw;
-//   // height: 50%;
-//   background-color: #fad1cd;
+@media screen and (max-width: $mobileL) {
+  .section-wrap {
+    height: 100%;
 
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+    &__block {
+      width: 100%;
+      padding: 45px;
+    }
 
-//   border-left: turquoise;
-//   border-width: 4px;
+    &__content {
+      padding: 0px;
+    }
 
-//   &__block {
-//     padding: 100px;
-//     color: #000;
-//   }
+    &__first-character {
+      float: left;
+    }
+  }
 
-//   &__text,
-//   &__list {
-//     font-size: 1.2rem;
-//   }
-// }
+  .skeleton1 {
+    height: 75vh;
+  }
+
+  .skeleton2 {
+    height: 40vh;
+  }
+
+  .skeleton1,
+  .skeleton2 {
+    background: none;
+  }
+}
