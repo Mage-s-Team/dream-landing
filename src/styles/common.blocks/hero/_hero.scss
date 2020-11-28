@@ -26,7 +26,6 @@
     justify-content: center;
     align-items: center;
 
-
     #background-link-1 {
       height: 170px;
       width: 550px;
@@ -41,9 +40,9 @@
   }
 }
 
-@media screen and (max-width: $laptop){
-  .hero{
-    &__btn-link{
+@media screen and (max-width: $laptop) {
+  .hero {
+    &__btn-link {
       #background-link-1 {
         height: 110px;
         width: 380px;
@@ -59,12 +58,9 @@
   }
 }
 
-
-@media screen and (max-width: $tablet){
-  .hero{
-
-
-    &__btn-link{
+@media screen and (max-width: $tablet) {
+  .hero {
+    &__btn-link {
       display: flex;
       flex-direction: column;
       #background-link-1 {
@@ -76,9 +72,8 @@
       }
       #background-link-3 {
         height: auto;
-        width: 70vw;  
+        width: 70vw;
       }
     }
   }
 }
-
