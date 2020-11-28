@@ -119,22 +119,20 @@
     url("https://techlife.news/wp-content/uploads/2019/11/01_SPoW_072719.jpg");
 }
 
-
-@media screen and (max-width: $tablet){
+@media screen and (max-width: $tablet) {
   .section-wrap {
-    &__block{
+    &__block {
       padding: 70px;
     }
   }
 }
 
-@media screen and (max-width: $mobileL){
+@media screen and (max-width: $mobileL) {
   .section-wrap {
     height: 100%;
 
     &__block {
       width: 100%;
-      height: 100%;
       padding: 45px;
     }
 
@@ -147,7 +145,16 @@
     }
   }
 
-  .skeleton1, .skeleton2 {
-    background: none; 
+  .skeleton1 {
+    height: 75vh;
+  }
+
+  .skeleton2 {
+    height: 40vh;
+  }
+
+  .skeleton1,
+  .skeleton2 {
+    background: none;
   }
 }
