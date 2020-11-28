@@ -168,8 +168,6 @@ html {
 }
 
 body {
-
-
   font-family: "Ubuntu", sans-serif;
 
   background-size: 170px;
@@ -181,25 +179,9 @@ body {
 
 .wrapper {
   width: 100%;
-
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
-}
-::-webkit-scrollbar-thumb {
-  background: $blue-violet-crayola;
-}
-
-::-webkit-scrollbar-track{
-  background: #ffffff;
-  box-shadow: #fff;
-}
-
-@media screen and (max-width: $mobileL){
-  ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-  }
+  width: 0px;
+  height: 0px;
 }
