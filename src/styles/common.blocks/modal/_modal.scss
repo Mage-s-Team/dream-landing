@@ -1,0 +1,97 @@
+.modal-wrap {
+  position: fixed;
+  z-index: 98;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content{
+    background: #fff;
+ 
+    box-shadow: inset 0px 0px 18px 0px rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    width: 60vw;
+    padding: 40px;
+    position: relative;
+    z-index: 99;
+    overflow-y: scroll;
+  }
+
+  &__btn-close{
+    font-size: 1.5rem;
+
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  &__header{
+    font-size: 1.8rem;
+  }
+
+  &__list{
+    font-size: 1rem;
+    padding-left: 25px;
+
+    &-elem{
+      margin-top: 7px;
+      margin-bottom: 7px;
+
+      &-discord-btn,&-mark{
+        background: $light-dark;
+        color:#fff;
+        display: inline-block;
+        border-radius: 4px;
+        padding: 4px;
+        margin-top: 2px;
+      }
+
+    }
+  }
+
+  transition: opacity 0.2s , z-index 0.2s;
+}
+
+.modal-wrap-hidden{
+  opacity: 0;
+  z-index:-1;
+
+  transition: opacity 0.2s , z-index 0.2s;
+}
+
+@media screen and (max-width: $laptop){
+  .modal-wrap{
+    &__content{
+      width: 70vw;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet){
+  .modal-wrap{
+    &__content{
+      width: 80vw;
+    }
+
+    &__btn-close{
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: $mobileL){
+  .modal-wrap{
+    &__content{
+      height: 100%;
+      width: 100%;
+      padding: 30px;
+    }
+
+    &__list{
+      padding-left: 10px;
+    }
+  }
+}
