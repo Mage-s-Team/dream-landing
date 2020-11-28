@@ -21,13 +21,13 @@ if (isPrealoaderNeed === null) {
   preloader.style.display = 'none';
 }
 
-function showModal() {
+function showModal(e) {
   modalWindow.classList.remove('modal-wrap-hidden');
   body.style.overflow = 'hidden';
+  e.stopPropagation();
 }
 
 function closeModal(e) {
-  e.stopPropagation();
   modalWindow.classList.add('modal-wrap-hidden');
   body.style.overflow = 'auto';
 }
