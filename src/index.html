@@ -9,13 +9,13 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
   <link rel="shortcut icon"
-    href="https://media.discordapp.net/attachments/723866622623744051/780876554493493278/sceleton.png"
-    type="image/x-icon">
+    href="https://media.discordapp.net/attachments/723866622623744051/782303085241565214/giphy_1.gif"
+    type="image/x-icon" />
 
   <title>Dream League</title>
 </head>
 
-<body class="scrollbar-hidden">
+<body>
   <div class="preloader-wrap">
     <div class="preloader loading">
       <span class="slice"></span>
@@ -26,35 +26,182 @@
       <span class="slice"></span>
     </div>
   </div>
-
   <div class="wrapper">
-    <section class="hero">
-      <div class="hero__inner">
-        <div class="hero__btn-link">
-          <img src="https://i.ibb.co/NNWLnLX/deam.png" alt="" id="background-link-1"
-            class="hero__btn-link__background" />
-          <img src="https://i.ibb.co/Rzgs3yH/sceleton.png" alt="" id="background-link-2"
-            class="hero__btn-link__background" />
-          <img src="https://i.ibb.co/g9KF1jp/league.png" alt="" id="background-link-3"
-            class="hero__btn-link__background" />
-        </div>
-      </div>
+    <div class="modal-wrap modal-wrap-hidden">
+      <div class="modal-wrap__content">
+        <button class="modal-wrap__btn-close">&#215;</button>
+        <h2 class="modal-wrap__header">Общие правила:</h2>
+        <ul class="modal-wrap__list">
+          <!-- <li class="modal-wrap__list-elem modal-wrap__list-elem-divider">1 &#8628;</li> -->
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">1.1</span> › Запрещено
+            нарушение <a href="" class="modal-wrap__link">ToS</a> и Правил
+            <a href="" class="modal-wrap__link">Сообщества Discord</a>.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">1.2</span> › Использование
+            твинков и попытки обхода правил запрещены.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">1.3</span> › Оскорбления и
+            провокации запрещены.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">1.4</span> › Запрещены
+            спам/реклама (включая лс).
+          </li>
 
-      <div class="btn-scroll btn-scroll-position" class="demo">
-        <a href="#main"><span></span></a>
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.1</span> › Мат в основном
+            чате запрещен, включая завуалированную форму.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.2</span> ›Запрещены флуд,
+            транслит, чрезмерное использование эмодзи, розжиги конфликтов и
+            оффтоп вне канала
+            <span class="modal-wrap__list-elem-discord-btn">#🧺・боты</span>
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.3</span> › Запрещено
+            злоупотребление упоминаниями участников.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.4</span> › Запрещено
+            чрезмерное использование капса, Markdown-разметки а также
+            специальных символов с целью быть замеченным.
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">3.1</span> › Запрещено
+            неадекватное поведение, крики, создание громких и неприятных звуков
+            с целью помешать участникам.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">3.2</span> › Soundpad, а
+            так же изменение голоса с помощью специальных утилит запрещено.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">3.3</span> › Оскорбительное
+            или нецензурное название личного войса (палатки) запрещено.
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">4.1</span> › Не
+            злоупотребляйте нецензурными выражениями.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">4.2</span> › Не ведите себя
+            токсично и не оскорбляйте других участников.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">4.3</span> › Не упоминайте
+            модераторов и алминистраторов без весомой на то причины за
+            исключением случаев, когда они общаются в текстовом канале в текущий
+            момент времени.
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">4.4</span> › Соблюдайте
+            элементарные правила Русского языка и сетевого этикета.
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">5</span> › Не проявляйте
+            нацизм, расизм и прочую дискриминацию участников по каким-либо
+            признакам.
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">6</span> › Не хейтите и не
+            устраивайте междусобойчики (если так приспичило посраться - идите в
+            ЛС).
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">7</span> › Запрещены спам,
+            пиар и реклама как на сервере, так и по личкам, включая, но не
+            ограничиваясь.
+          </li>
+
+          <br />
+
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">8.1</span> › Приглашениями
+            на сторонние серверы;
+          </li>
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">8.2</span> › Сообществами в
+            социальных сетях, YouTube, Twitch и прочих (при условии того что у
+            Вас нет роли стримера)
+          </li>
+        </ul>
+        <br />
+
+        <h2 class="modal-wrap__header">Правила економики:</h2>
+        <ul class="modal-wrap__list">
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">1</span> › Запрещено
+            грабить с твинка
+          </li>
+          <br />
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2</span> › Запрещено
+            багоюзить, например
+          </li>
+          <br />
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.1</span> › Покупать себе
+            предыдущие роли для повышения дохода
+          </li>
+          <br />
+          <li class="modal-wrap__list-elem">
+            <span class="modal-wrap__list-elem-mark">2.2</span> › Перекидывать
+            деньги на твинк перед грабежом
+          </li>
+        </ul>
       </div>
+    </div>
+
+    <div class="wrapper">
+      <section class="hero">
+        <div class="hero__inner">
+          <div class="hero__btn-link">
+            <img src="https://i.ibb.co/NNWLnLX/deam.png" alt="" id="background-link-1"
+              class="hero__btn-link__background" />
+            <img src="https://i.ibb.co/Rzgs3yH/sceleton.png" alt="" id="background-link-2"
+              class="hero__btn-link__background" />
+            <img src="https://i.ibb.co/g9KF1jp/league.png" alt="" id="background-link-3"
+              class="hero__btn-link__background" />
+          </div>
+        </div>
+    </div>
+
+    <div class="btn-scroll btn-scroll-position" class="demo">
+      <a href="#main"><span></span></a>
+    </div>
     </section>
 
     <main id="main">
       <div class="section-wrap">
         <section class="section-wrap__block skeleton1">
-          <div class="section-wrap__content " data-aos="zoom-in">
-            <p class="section-wrap__info">
-              <span class="section-wrap__first-character character1">D</span>
+          <div class="section-wrap__content" data-aos="zoom-in">
+            <div class="section-wrap__info">
+              <p class="section-wrap__first-character character1">D</p>
               ream League – сервер, на котором ты можешь поиграть во все что
-              угодно или просто приятно пообщаться. Приятное комьюнити и
-              отзывчивая администрация не дадут тебе заскучать! <br />
-            </p>
+              угодно или просто приятно пообщаться. Приятное комьюнити
+              отзывчивая администрация не дадут тебе заскучать!
+            </div>
 
             <div class="section-wrap__indent">
               <p class="section-wrap__divider-line"></p>
@@ -82,7 +229,7 @@
       </div>
 
       <div class="section-space space1">
-        <a href="http://htmlbook.ru/css/list-style-type" class="section-space__button" data-aos="fade-up-left">
+        <a href="https://discord.gg/gQqzHvQrrv" class="section-space__button" data-aos="fade-up-left">
           Перейти на сервер
         </a>
       </div>
@@ -90,37 +237,39 @@
       <div class="section-wrap">
         <section class="section-wrap__block skeleton2">
           <div class="section-wrap__content" data-aos="zoom-in">
-            <p class="section-wrap__info">
-
-              <span class="section-wrap__first-character character2">Ч</span>
-              тоб прочитать правила нашего сервера нажмите на кнопку снизу, или
-              (при условии что Вы уже верефицированый пользователь) зайдите в
-              соответствующий канал на нашем сервере в категории "Важное"
+            <p class="section-wrap__first-character character2">Ч</p>
+            тоб прочитать правила нашего сервера нажмите на кнопку снизу, или
+            (при условии что Вы уже верефицированый пользователь) зайдите в
+            соответствующий канал на нашем сервере в категории "Важное"
           </div>
-          </p>
         </section>
       </div>
 
-      <div class="section-space space2">
-        <a href="http://htmlbook.ru/css/list-style-type" class="section-space__button" data-aos="fade-up-left">
-          Перейти к правилам
-        </a>
-      </div>
+  </div>
 
-      <!-- data-aos="fade-down-left" -->
-    </main>
+  <div class="section-space space2">
+    <a class="section-space__button" id="open-modal-btn" data-aos="fade-up-left">
+      Перейти к правилам
+    </a>
+  </div>
+  <!-- data-aos="fade-down-left" -->
+  </main>
 
-    <footer class="footer">
+  <footer class="footer">
+    <div class="footer__container">
       <h3 class="footer__primary">© Dream League</h3>
       <div class="section-wrap__indent">
         <p class="section-wrap__divider-line"></p>
       </div>
-      <h4 class="footer__secondary">Made by <a href="https://github.com/haravetskyy">300</a> and <a
-          href="https://github.com/TarasKostiv">007kostiv</a> </h4>
+    </div>
 
-
-    </footer>
+    <h4 class="footer__secondary">
+      Made by <a href="https://github.com/haravetskyy">300</a> and
+      <a href="https://github.com/TarasKostiv">007kostiv</a>
+    </h4>
+  </footer>
   </div>
+
 
   <script src="./js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>

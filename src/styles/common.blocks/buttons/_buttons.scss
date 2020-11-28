@@ -82,6 +82,7 @@ button {
       color: #fff;
     }
 
+    text-decoration: none;
     color: #fff;
 
     padding: 30px 60px;
@@ -132,5 +133,15 @@ button {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: $mobileL) {
+  .section-space {
+    &__button {
+      font-size: 0.8rem;
+
+      padding: 25px 45px;
+    }
   }
 }
