@@ -132,7 +132,8 @@ a {
 
 // Primar alinement of project
 
-$dark: rgb(68, 68, 68);
+$light-dark: rgb(68, 68, 68);
+$dark: rgb(29, 29, 29);
 $thistle: #dec9e9ff;
 $thistle-2: #dac3e8ff;
 $pink-lavender: #d2b7e5ff;
@@ -194,4 +195,11 @@ body {
 ::-webkit-scrollbar-track{
   background: #ffffff;
   box-shadow: #fff;
+}
+
+@media screen and (max-width: $mobileL){
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
 }
