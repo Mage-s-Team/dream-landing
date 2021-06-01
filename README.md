@@ -14,4 +14,4 @@
 
 #
 
-Made by <a href="https://github.com/haravetskyy">300</a> and <a href="https://github.com/TarasKostiv">Taras Kostiv</a>
+Made by <a href="https://github.com/haravetskyy">Mage300</a> and <a href="https://github.com/TarasKostiv">Taras Kostiv</a>
